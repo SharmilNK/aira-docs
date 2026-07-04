@@ -10,11 +10,11 @@
 
 ## The problem
 
-Scientific discovery increasingly depends on interdisciplinary teams whose members bring distinct expertise, vocabularies, assumptions, and standards of evidence. Today's AI research assistants optimize individual workflows — literature review, writing, coding — but offer little support for the **collaborative reasoning** required to integrate knowledge across disciplines.
+Scientific discovery increasingly depends on interdisciplinary teams whose members bring distinct expertise, vocabularies, assumptions, and standards of evidence. Today's AI research assistants optimize individual workflows: literature review, writing, coding but offer little support for the **collaborative reasoning** required to integrate knowledge across disciplines.
 
 ## What Aira does
 
-Aira turns research meeting recordings into **structured collaboration plans**. Upload audio or video, record live in the browser, or paste a transcript — and receive an actionable plan that surfaces what matters for cross-disciplinary work:
+Aira turns research meeting recordings into **structured collaboration plans**. Upload audio or video, record live in the browser, or paste a transcript and receive an actionable plan that surfaces what matters for cross-disciplinary work:
 
 - **Goals** and prioritized objectives
 - **Decisions** with rationale, dissent, and tradeoffs
@@ -77,7 +77,7 @@ A fifth **update agent** handles follow-up meetings by diffing a new plan agains
 
 ## Evaluation
 
-Aira is evaluated against a single-prompt baseline (unstructured prose summary) using an LLM-as-judge on six criteria — completeness, structure, actionability, interdisciplinary coverage, gap identification, and glossary quality — scored 0–5 each (max 30).
+Aira is evaluated against a single-prompt baseline (unstructured prose summary) using an LLM-as-judge on six criteria — completeness, structure, actionability, interdisciplinary coverage, gap identification, and glossary quality; scored 0–5 each (max 30).
 
 The multi-agent structured output consistently outperforms the baseline on actionability and cross-disciplinary synthesis.
 
@@ -106,7 +106,6 @@ Built at the **Duke Trust Lab** (Pratt School of Engineering, Duke University).
 | **Tiffany Degbotse** | Engineering |
 | **Jiayi Zhou** | Engineering & Environment |
 
-Contributors: Vishnu Manoj, Vihaan Nama, Boyuan Chen, Lee Tiedrich, Christopher Bail, David Johnston, Walter Sinnott-Armstrong.
 
 ---
 
@@ -118,12 +117,4 @@ Contributors: Vishnu Manoj, Vihaan Nama, Boyuan Chen, Lee Tiedrich, Christopher 
 
 ---
 
-## Screenshots
 
-<!-- Add screenshots to docs/screenshots/ and uncomment below -->
-
-<!-- ![Plan overview](docs/screenshots/plan-overview.png) -->
-<!-- ![Merge review](docs/screenshots/merge-review.png) -->
-<!-- ![Landing page](docs/screenshots/landing.png) -->
-
-*Screenshots coming soon.*
