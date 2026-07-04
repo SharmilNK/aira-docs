@@ -37,7 +37,7 @@ Aira is designed for teams, not solo researchers: plans persist, evolve across f
 | **Follow-up meetings** | Upload a new transcript; Aira diffs against the existing plan for human review before merging |
 | **Version history** | Each approved merge creates a new plan version |
 | **Team collaboration** | Roles (`admin`, `editor`, `viewer`), invite links, persisted notes and action status |
-| **Human-in-the-loop** | Users approve or reject suggested updates — nothing is auto-overwritten |
+| **Human-in-the-loop** | Users approve or reject suggested updates,nothing is auto-overwritten |
 
 For system design details, see [Architecture.md](./Architecture.md).
 
